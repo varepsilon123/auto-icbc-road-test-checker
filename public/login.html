@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+</head>
+<body>
+    <form method="POST" action="index.php">
+        <label for="name">Driver's Last Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="num">License Number:</label>
+        <input type="number" id="num" name="num" required><br><br>
+
+        <label for="keyword">Keyword:</label>
+        <input type="text" id="keyword" name="keyword" required><br><br>
+
+        <label for="center">Center:</label>
+        <select name="center" id="center">
+          <option value="93">Richmond driver licensing (Lansdowne Centre mall)</option>
+          <option value="273">Richmond claim centre (Elmbridge Way)</option>
+          <option value="274">Burnaby Claim Center</option>
+        </select><br><br>
+
+        <!-- <label for="date">Earliest Exam Date:</label>
+        <input type="date" id="date" name="date"><br><br> -->
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
