@@ -1,0 +1,18 @@
+{
+    "name": "fung/auto-icbc-system",
+    "autoload": {
+        "psr-4": {
+            "Fung\\AutoIcbcSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fung Chung",
+            "email": "fung@70000tons.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
